@@ -144,23 +144,35 @@ body {
 /*********** RIGHT-CONTENT ************/
 .right_content {
 	float: right;
+	background-color: #fff;
 }
 
-.promo {
+/*.promo {
 	list-style: none;
 	padding: 0;
-}
+}*/
 
 .promo__list {
 	display: inline-block;
+	
 }
 
 .promo__garnier {
 	position: relative;
+	padding-left: 29px;
 }
 
 .promo__garnier p {
 	margin-left: 23px;
+	font-size: 28px;
+}
+
+.promo__garnier p:first-child {
+	margin-bottom: 0;
+}
+
+.promo__garnier p:nth-child(2) {
+	margin-top: 0;
 }
 
 
@@ -197,13 +209,24 @@ body {
 
 .promo__pink {
 	background-color: #f9a7c2;
-	width: 529px;
+	width: 528px;
+	height: inherit;
 }
 
 
 .promo__list--custom {
 	max-width: 100%;
 	padding: 29px;
+
+}
+
+.promo__list--custom p:first-child {
+	font-size: 44px;
+	margin-top: 0;
+}
+
+.promo__list--custom p:nth-child(2) {
+	font-size: 28px;
 }
 
 .human-picture img {
