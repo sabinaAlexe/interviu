@@ -1,0 +1,215 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #f3f1f2;
+}
+
+
+@font-face {
+	font-family: 'Myriad Pro Regular';
+	src: url("../MyriadPro-Regular.otf") format("opentype");
+}
+
+.link_font {
+	font-size: 22px;
+	font-family: "Myriad Pro Regular", sans-serif;
+}
+
+
+
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+/****************** BULE **************/
+.bubble1 {
+	margin-left: 203px;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.bubble2 {
+	position: absolute;
+	margin-top: 877px;
+	margin-left: 179px;
+}
+
+/****************** HEADER **************/
+
+.hero_wrapper {
+	
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.hero {
+	margin: 0 auto;
+	width: 87.5%;
+	height: 50px;
+	background: url(../resources/banner.png) no-repeat center;
+	background-size: cover;
+}
+
+.social-media {
+	float: right;
+	margin-right: 60px;
+}
+
+.social_icon {
+	height: 22px;
+	margin-top: 15px;
+}
+
+.fb_icon {
+	width: 12px;
+	margin-right: 32px;
+}
+
+.yt_icon {
+	width: 30px;
+}
+/****************** LOGO ****************/
+.logo_wrapper {
+	position: absolute;
+	top: 0;
+}
+
+.logo_content {
+	margin-left: 204px;
+	margin-top: 10px;
+}
+
+
+/****************** CONTENT **************/
+.content_wrapp {
+	width: 87.5%;
+	margin: 48px auto 0 auto;
+	height: 100%;
+}
+
+/****************** NAV ****************/
+.left_content {
+	float: left;
+}
+
+.nav-bar {
+	list-style: none;
+	height: 230px;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar__link {
+	text-decoration: none;
+	color: #4b4645;
+}
+
+.nav-bar__list {
+	background: #fff;
+	width: 330px;
+	padding: 17px 0 16px 0;
+	padding-left: 12px;
+	margin-bottom: 13px;
+}
+
+.nav-bar__list:nth-child(4) {
+	margin-bottom: 11px;
+}
+
+
+.nav-bar__list:nth-child(5) {
+	background: #fff;
+	text-align: center;
+}
+
+.details__link {
+	color: #f9a7c2;
+}
+
+.details__link span {
+	padding-left: 10px;
+}
+
+
+/*********** RIGHT-CONTENT ************/
+.right_content {
+	float: right;
+}
+
+.promo {
+	list-style: none;
+	padding: 0;
+}
+
+.promo__list {
+	display: inline-block;
+}
+
+.promo__garnier {
+	position: relative;
+}
+
+.promo__garnier p {
+	margin-left: 23px;
+}
+
+
+.bottle_left {
+	position: absolute;
+	margin-top: -498px;
+	margin-left: 180px;
+}
+
+
+.clearfix__margin {
+	margin-bottom: 45px;
+}
+
+
+.promo__link {
+	background-color: #f9a7c2;
+	width: 173px;
+	margin: 0 auto;
+}
+
+.btn {
+	background-color: #f9a7c2;
+	border: none;
+	padding: 10px 10px 12px 42px;
+	color: #fff
+
+}
+
+.btn span {
+	padding-left: 10px;
+}
+
+
+.promo__pink {
+	background-color: #f9a7c2;
+	width: 529px;
+}
+
+
+.promo__list--custom {
+	max-width: 100%;
+	padding: 29px;
+}
+
+.human-picture {
+	display: block;
+	width: 100%;
+}
+
+
+
