@@ -13,7 +13,7 @@ body {
 	src: url("../MyriadPro-Regular.otf") format("opentype");
 }
 
-.link_font {
+.font-style {
 	font-size: 22px;
 	font-family: "Myriad Pro Regular", sans-serif;
 }
@@ -41,6 +41,22 @@ body {
 	position: absolute;
 	margin-top: 877px;
 	margin-left: 179px;
+}
+
+.bubble3 {
+	position: absolute;
+	top: 1400px;
+	right: 100px;
+	z-index: -1;
+}
+
+
+
+.sticky_bottle {
+	position: fixed;
+	top: 400px;
+	right: 100px;
+	z-index: 2;
 }
 
 /****************** HEADER **************/
@@ -104,7 +120,6 @@ body {
 
 .nav-bar {
 	list-style: none;
-	height: 230px;
 	margin: 0;
 	padding: 0;
 }
@@ -144,7 +159,16 @@ body {
 /*********** RIGHT-CONTENT ************/
 .right_content {
 	float: right;
+	
+    margin-right: 60px;
+    width: 60%;
+}
+
+.promo-content {
 	background-color: #fff;
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
 /*.promo {
@@ -154,11 +178,14 @@ body {
 
 .promo__list {
 	display: inline-block;
+	 -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 	
 }
 
 .promo__garnier {
-	position: relative;
+	
 	padding-left: 29px;
 }
 
@@ -175,12 +202,11 @@ body {
 	margin-top: 0;
 }
 
-
-.bottle_left {
-	position: absolute;
-	margin-top: -498px;
-	margin-left: 180px;
+.bottle_img {
+	width: 100%;
 }
+
+
 
 
 .clearfix__margin {
@@ -230,9 +256,106 @@ body {
 }
 
 .human-picture img {
-	
 	width: 100%;
+	position: relative;
 }
 
 
 
+/****************** SUBSCRIPTION ************/
+.subscription-wrapper {
+	margin-top: 60px;
+	background-color: #fff;
+	border: 3px solid #ebbe10;
+	padding: 60px 114px 26px 114px;
+}
+
+.subscription-wrapper p {
+	font-size: 32px;
+	text-align: center;
+}
+
+.subscription-content {
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-display {
+	display: inline-block;
+	-webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.field-form {
+	border: none;
+}
+
+.field-form label {
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 0;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+	width: 100%;
+}
+
+.bg-input {
+	border-radius: 2px;
+	border-color: #f6d305;
+	background-color: #f6d305;
+}
+
+#custom-size {
+	font-size: 12px;
+	float: right;
+	width: 50%;
+}
+
+select {
+	float: right;
+	width: 50%;
+}
+
+.submit-input {
+	width: 160px;
+	margin: 95px auto 0 auto;
+}
+
+.submit-input input {
+	color: #fff;
+	background-color: #f9a7c2;
+	padding: 14px 54px;
+	border: none;
+}
+
+
+.table-form--style {
+	margin-left: 43px;
+	margin-top: 40px;
+	border-collapse: collapse;
+}
+
+.table-form--style td {
+	padding-bottom: 33px;
+}
+
+.special__td {
+	font-size: 13px;
+	color: #a3b4a8;
+	text-align: center;
+}
+
+
+
+
+.right_content:after {
+	content: "";
+	clear: both;
+	display: block;
+}
