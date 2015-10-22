@@ -206,8 +206,8 @@ body {
 	padding: 29px;
 }
 
-.human-picture {
-	display: block;
+.human-picture img {
+	
 	width: 100%;
 }
 
